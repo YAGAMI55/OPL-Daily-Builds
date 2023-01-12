@@ -192,7 +192,7 @@ void Remove_Kernel_Hooks(void)
 {
     SetSyscall(__NR_SifSetDma, Old_SifSetDma);
     SetSyscall(__NR_SifSetReg, Old_SifSetReg);
-    SetSyscall(__NR__Exit, Old_Exit);
+    SetSyscall(__NR_KExit, Old_Exit);
 
     DI();
     ee_kmode_enter();
