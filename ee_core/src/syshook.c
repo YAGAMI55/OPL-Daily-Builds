@@ -180,8 +180,8 @@ void Install_Kernel_Hooks(void)
         SetSyscall(__NR__ExecPS2, &Hook_ExecPS2);
     }
 
-    Old_Exit = GetSyscallHandler(__NR__Exit);
-    SetSyscall(__NR__Exit, &Hook_Exit);
+    Old_Exit = GetSyscallHandler(__NR_KExit);
+    SetSyscall(__NR_KExit, &Hook_Exit);
 }
 
 /*----------------------------------------------------------------------------------------------*/
