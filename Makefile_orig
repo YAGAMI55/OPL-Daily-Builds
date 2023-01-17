@@ -25,7 +25,7 @@ EXTRAVERSION = Beta-DB
 RTL ?= 0
 
 #Enables/disables In Game Screenshot (IGS). NB: It depends on GSM and IGR to work
-IGS ?= 1
+IGS ?= 0
 
 #Enables/disables pad emulator
 PADEMU ?= 1
