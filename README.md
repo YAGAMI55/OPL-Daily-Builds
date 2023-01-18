@@ -1,4 +1,4 @@
-#This is an unofficial build based on Jay-Jay DB
+# This is an unofficial build based on Jay-Jay DB
 
 # Open PS2 Loader
 
