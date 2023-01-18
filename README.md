@@ -1,3 +1,5 @@
+#This is an unofficial build based on Jay-Jay DB
+
 # Open PS2 Loader
 
 Copyright 2013, Ifcaro & jimmikaelkael
