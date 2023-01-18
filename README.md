@@ -1,4 +1,5 @@
 # This is an unofficial build based on Jay-Jay OPL-DB
+# with some fix to compiling via Docker
 
 # Open PS2 Loader
 
