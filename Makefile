@@ -1,7 +1,7 @@
 VERSION = 1
 SUBVERSION = 2
 PATCHLEVEL = 0
-EXTRAVERSION = Beta-DB
+EXTRAVERSION = PSXPB
 
 # How to DEBUG?
 # Simply type "make <debug mode>" to build OPL with the necessary debugging functionality.
@@ -47,10 +47,10 @@ REVISION = 1.0
 
 GIT_HASH = $(shell git rev-parse --short=7 HEAD 2>/dev/null)
 ifeq ($(shell git diff --quiet; echo $$?),1)
-  DIRTY = -psxplanet_build
+  DIRTY = -test
 endif
 ifneq ($(shell test -d .git; echo $$?),0)
-  DIRTY = -psxplanet_build
+  DIRTY = -test
 endif
 
 GIT_TAG = $(shell git describe --exact-match --tags 2>/dev/null)
