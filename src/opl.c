@@ -1571,17 +1571,17 @@ void setDefaultColors(void)
     gDefaultBgColor[1] = 0x00;
     gDefaultBgColor[2] = 0x00;
 
-    gDefaultTextColor[0] = 0x50;
-    gDefaultTextColor[1] = 0x50;
-    gDefaultTextColor[2] = 0x50;
+    gDefaultTextColor[0] = 0xFF;
+    gDefaultTextColor[1] = 0xFF;
+    gDefaultTextColor[2] = 0xFF;
 
-    gDefaultSelTextColor[0] = 0xFF;
-    gDefaultSelTextColor[1] = 0xFF;
-    gDefaultSelTextColor[2] = 0xFF;
+    gDefaultSelTextColor[0] = 0x28;
+    gDefaultSelTextColor[1] = 0x28;
+    gDefaultSelTextColor[2] = 0x28;
 
-    gDefaultUITextColor[0] = 0xE6;
-    gDefaultUITextColor[1] = 0xE6;
-    gDefaultUITextColor[2] = 0xE6;
+    gDefaultUITextColor[0] = 0xFF;
+    gDefaultUITextColor[1] = 0xFF;
+    gDefaultUITextColor[2] = 0xFF;
     //END of OPL_DB tweaks
 }
 
@@ -1665,17 +1665,17 @@ static void setDefaults(void)
     gDefaultBgColor[1] = 0x000;
     gDefaultBgColor[2] = 0x000;
 
-    gDefaultTextColor[0] = 0x050;
-    gDefaultTextColor[1] = 0x050;
-    gDefaultTextColor[2] = 0x050;
+    gDefaultTextColor[0] = 0x0ff;
+    gDefaultTextColor[1] = 0x0ff;
+    gDefaultTextColor[2] = 0x0ff;
 
-    gDefaultSelTextColor[0] = 0x0ff;
-    gDefaultSelTextColor[1] = 0x0ff;
-    gDefaultSelTextColor[2] = 0x0ff;
+    gDefaultSelTextColor[0] = 0x028;
+    gDefaultSelTextColor[1] = 0x028;
+    gDefaultSelTextColor[2] = 0x028;
 
-    gDefaultUITextColor[0] = 0x0e6;
-    gDefaultUITextColor[1] = 0x0e6;
-    gDefaultUITextColor[2] = 0x0e6;
+    gDefaultUITextColor[0] = 0x0ff;
+    gDefaultUITextColor[1] = 0x0ff;
+    gDefaultUITextColor[2] = 0x0ff;
     //END of OPL_DB tweaks
 
     gEnableILK = 0;
