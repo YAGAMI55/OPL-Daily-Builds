@@ -6,8 +6,8 @@ EE_CFLAGS := -D_EE -O2 -mgpopt -G8192 -Wall $(EE_INCS)
 
 EE_LDFLAGS = -nostartfiles -Tlinkfile -L$(PS2SDK)/ee/lib -s
 //EE_LIBS += -lkernel-nopatch //Old Flag
-//EE_LIBS += -lkernel //Not Work
-EE_LIBS += -lkernel -lgcc //Test
+EE_LIBS += -lkernel
+//EE_LIBS += -lkernel -lgcc //Test
 
 %.o : %.c
 	$(EE_CC) $(EE_CFLAGS) $(EE_INCS) -c $< -o $@
